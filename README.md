@@ -7,7 +7,7 @@ In our experiences such a bug may arise with coarrays of derived type containing
 
 # src_with_array_character_member source code folder
 On the other hand, we did never experience such a compiler bug when using coarrays of derived type containing a (one-element) array character component. Thus, you should not experience a run-time error when executing the test program of this source code folder.
-The files in the two source code folders are nearly identical, with only one exception: the OOOPimmc_admImageManager_CA.f90 source code file uses an array character component. Thus, only four source code lines herein show differences, they are marked with date stamp '160726'.
+The files in the two source code folders are nearly identical, with only one exception: the OOOPimmc_admImageManager_CA.f90 source code file herein uses an array character component. Thus, four source code lines herein are different from the version of the src_with_scalar_character_member source code folder. These are marked with the date stamp '160726'.
 
 # Test your Coarray Fortran Compiler
 - Download the content of the 'src_with_scalar_character_member' source code folder.
