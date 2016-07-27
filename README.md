@@ -1,5 +1,5 @@
 # Coarray Test Program for Character Data
-# Overview
+# Overview:
 This Repository contains two test programs that may help to check for compiler bugs with coarray image-to-image transfer of charachter data.
 
 # src_with_scalar_character_member source code folder:
