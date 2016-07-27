@@ -1,2 +1,2 @@
-# Coarray_Test_Program_for_Character_Data
-coarray image-to-image data transfer of characters: check for a compiler bug.
+# Coarray Test Program for Character Data
+Coarray image-to-image transfer of character data: check for a compiler bug.
