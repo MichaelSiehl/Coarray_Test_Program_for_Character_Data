@@ -2,14 +2,14 @@
 # Overview
 This Repository contains two test programs that may help to check for compiler bugs with coarray image-to-image transfer of charachter data.
 
-# src_with_scalar_character_member source code folder
+# src_with_scalar_character_member source code folder:
 From our experiences, such a bug may arise with coarrays of derived type containing a scalar character component. While the data transfer itself takes place, single letters of the coarray character component turn into something else after remote transfer. This failure may only occur with a slightly sophisticated code structure, as that of our example program.
 
-# src_with_array_character_member source code folder
+# src_with_array_character_member source code folder:
 On the other hand, we did never experience such a compiler bug when using coarrays of derived type containing a (one-element) array character component. Thus, you should not experience a run-time error when executing the test program of this source code folder.
 The files in the two source code folders are nearly identical, with one exception only: the OOOPimmc_admImageManager_CA.f90 source code file herein uses an array character component. Thus, four source code lines herein are different from the version of the src_with_scalar_character_member source code folder. These source code lines are marked with the date stamp '160726'.
 
-# Test your Coarray Fortran Compiler
+# Test your Coarray Fortran Compiler:
 - Download and use the contents of the 'src_with_scalar_character_member' source code folder.
 - Compile the source code to execute with 3 coarray images. With ifort you may use this from a Linux (Ubuntu) terminal window:
  
