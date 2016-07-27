@@ -11,6 +11,7 @@ The files in the two source code folders are nearly identical, with only one exc
 
 # Test your Coarray Fortran Compiler
 - Download the content of the 'src_with_scalar_character_member' source code folder.
-- Compile the source code to execute with 3 coarray images. With ifort you may use this from a Linux (Ubuntu) terminal window:  ifort -coarray -coarray-num-images=3 OOOGglob_Globals.f90 OOOEerro_admError.f90 OOOPstpa_admStartPath.f90 OOOPimsc_admImageStatus_CA.f90 OOOPtmec_admTeamMember_CA.f90 OOOPtemc_admTeamManager_CA.f90 OOOPimmc_admImageManager_CA.f90 OOOPinmc_admInitialManager_CA.f90 OOOPtmem_admTeamMember.f90 OOOPtema_admTeamManager.f90 OOOPinma_admInitialManager.f90 OOOPimma_admImageManager.f90 Main_Sub.f90 Main.f90 -o a.out
+- Compile the source code to execute with 3 coarray images. With ifort you may use this from a Linux (Ubuntu) terminal window:
+ ifort -coarray -coarray-num-images=3 OOOGglob_Globals.f90 OOOEerro_admError.f90 OOOPstpa_admStartPath.f90 OOOPimsc_admImageStatus_CA.f90 OOOPtmec_admTeamMember_CA.f90 OOOPtemc_admTeamManager_CA.f90 OOOPimmc_admImageManager_CA.f90 OOOPinmc_admInitialManager_CA.f90 OOOPtmem_admTeamMember.f90 OOOPtema_admTeamManager.f90 OOOPinma_admInitialManager.f90 OOOPimma_admImageManager.f90 Main_Sub.f90 Main.f90 -o a.out
 - Execute the compiled program from the command line: a.out
 - Check the output on screen after execution of the test program: A compiler bug will raise an error message and will show a difference between the character output before and after data transfer.
